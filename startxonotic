@@ -23,12 +23,12 @@ my $exists = "";
 
 my $running=`ps ax|grep startxonotic|grep -v grep`;
 
-# check if Xonotic server process is running
-if ($running ne "")
-{
-	print ("Startupscript already running...\n");
-	exit (0);
-}
+## check if Xonotic server process is running
+#if ($running ne "")
+#{
+#	print ("Startupscript already running...\n");
+#	exit (0);
+#}
 
 while (-1)
 {
